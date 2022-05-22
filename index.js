@@ -1917,8 +1917,8 @@ sendFileFromUrl(from, texpro, lang.ok(), m)
 }
 break
 case 'steellettering':case 'letterstext':case 'barcashirt':case 'premiercup':case 'stylepoligon':case 'lifebuoys':case 'juventusshirt':{
-if (!text) return reply(`Kirim perintah ${prefix + command} *zeeone|ofc*`)
-if (!text.includes('|')) return reply(`Kirim perintah ${prefix + command} *zeeone|ofc*`)
+if (!text) return reply(`Kirim perintah ${prefix + command} *Kate Ar Rawawie*`)
+if (!text.includes('|')) return reply(`Kirim perintah ${prefix + command} *Kate Ar Rawawie*`)
 mm = args.join(' ')
 m1 = mm.split("|")[0];
 m2 = mm.split("|")[1]; 
@@ -2055,8 +2055,8 @@ alpha.sendMessage(from, {image:{ url: textpro2}, caption: lang.ok()}, {quoted:m}
 
 	break
 case 'colorfulpubg':{
-	if (!text) return reply(`Ex: ${prefix + command} nama|color\nUsage: ${prefix + command} zeeone|gold`)
-	if (!text.includes('|')) return reply(`Ex: ${prefix + command} nama|color\nUsage: ${prefix + command} zeeone|gold`)
+	if (!text) return reply(`Ex: ${prefix + command} nama|color\nUsage: ${prefix + command} Kate|gold`)
+	if (!text.includes('|')) return reply(`Ex: ${prefix + command} nama|color\nUsage: ${prefix + command} Kate|gold`)
 var mon = args.join(' ')
 var m1 = mon.split("|")[0]
 var m2 = mon.split("|")[1]
@@ -2121,8 +2121,8 @@ alpha.sendMessage(from, {image:{ url: textpro2}, caption: lang.ok()}, {quoted:m}
 
 	break
 case 'maketeamlogo':{
-	if (!text) return reply(`Ex: ${prefix + command} nama|style\nUsage: ${prefix + command} zeeone|anubis`)
-	if (!text.includes('|')) return reply(`Ex: ${prefix + command} nama|style\nUsage: ${prefix + command} zeeone|anubis`)
+	if (!text) return reply(`Ex: ${prefix + command} nama|style\nUsage: ${prefix + command} Kate|anubis`)
+	if (!text.includes('|')) return reply(`Ex: ${prefix + command} nama|style\nUsage: ${prefix + command} Kate|anubis`)
 var mon = args.join(' ')
 var m1 = mon.split("|")[0]
 var m2 = mon.split("|")[1]
@@ -2144,7 +2144,7 @@ alpha.sendMessage(from, {image:{ url: textpro2}, caption: lang.ok()}, {quoted:m}
 	break
 case 'circlemarcotteam':{
 	if (!text) return reply(`Ex: ${prefix + command} nama|logo\nUsage: ${prefix + command} zeeone|lionsnake`)
-	if (!text.includes('|')) return reply(`Ex: ${prefix + command} nama|logo\nUsage: ${prefix + command} zeeone|lionsnake`)
+	if (!text.includes('|')) return reply(`Ex: ${prefix + command} nama|logo\nUsage: ${prefix + command} Kate|lionsnake`)
 var mon = args.join(' ')
 var m1 = mon.split("|")[0]
 var m2 = mon.split("|")[1]
@@ -2495,8 +2495,8 @@ alpha.sendMessage(from, {image:{ url: textpro2}, caption: lang.ok()}, {quoted:m}
 
 	break
 	case 'lolpentakill':{
-		if (!text) return reply(`Ex: ${prefix + command} nama|style\nUsage: ${prefix + command} zeeone|kassadin`)
-	if (!text.includes('|')) return reply(`Ex: ${prefix + command} nama|style\nUsage: ${prefix + command} zeeone|kassadin`)
+		if (!text) return reply(`Ex: ${prefix + command} nama|style\nUsage: ${prefix + command} Kate|kassadin`)
+	if (!text.includes('|')) return reply(`Ex: ${prefix + command} nama|style\nUsage: ${prefix + command} Kate|kassadin`)
 var mon = args.join(' ')
 var m1 = mon.split("|")[0]
 var m2 = mon.split("|")[1]
@@ -2519,7 +2519,7 @@ alpha.sendMessage(from, {image:{ url: textpro2}, caption: lang.ok()}, {quoted:m}
 	case 'avatarleagueofking':{
 if (!text) return reply(`Ex: ${prefix + command} nama|style\nUsage: ${prefix + command} zeeone|arum-6`)
 if (!text.includes('|')) return reply(`Ex: ${prefix + command} nama|style\nUsage: ${prefix + command} zeeone|arum-6`)
-var mon = args.join(' ')
+var mon = args.join(' ',)
 var m1 = mon.split("|")[0]
 var m2 = mon.split("|")[1]
 const style = ['arum-6','baldum-3','elandorr-3','hayate-5','ilumia-5','ishar-4','lauriel-8','nax-5','nurad-9','quillen-6','teemee-3','telannas-8','volkath-3','yena-4','yena-5','butterfly-10','laville','yuumi','laville-2','nakroth-7','omen-6','rouie-2','taara-4','zanis-8','zata','zata-2','yasuo','elsu-6','fennik-5','liliana-7','paine','paine-2','rouie','astrid-4','ata','ata-2','lauriel-8','omen-5','qi-3','roxie-5','taara-5','violet-12','wukong-7','wukong-8','hayate-4','ishar-3','jinna-5','keera-2','lauriel-7','quillen-5','richter-4','ryoma-6','telannas-8','tulen-9','yorn-8','aleister-4','dirak-2','grakk-5','kerra','raz-5','amily-5','athur-7','arum-5','ishar-2','nax-4','natalya-6','natalya-7','zill-5','diaochan-6','ignis-4','lubu-8','naloch-7','sephera-4','elandorr','elandorr-2','krizziz-2','violet-11','yena-3','arduin-4','enzo-3','errol-3','hayate-3','krixi-7','krizziz','nurad-8','volkath','volkath-2','wisp-4','wukong-6','celica','gildur-4','ishar','nurad-7','quillen-4','tulen-8','lauriel-6','qi','qi-2','darcy-3','florentino-3','noren-3','ryoma-5','sephera-3','annette-4','capheny-3','elsu-5','narja','veres-3','violet-10','zip','zip-2','diaochan-5','enzo-2','lubu-7','nganga-4','payna-3','roxie-4','violet-9','zanis-7','zephys-6','enzo','liliana-6','lindis-5','xeniel-5','airi-9','errol-2','yena-2','zuka-8','notos','chaugnar','kahlii','lubo','nina','krixi','zanis-3','jinna','fennik','airi','ormarr','toro','butterfly','nakroth','gildur','omega','natalya','lumburr','yorn','dieu-thuyen','nganga','grankk-2','azzenka','alice','violet','violet2','butterfly2','krixi2','natalya2','taara','ormarr2','valhein','zephys','nakroth2','aleister','payna','wukong','naloch','kricnak','slimz2','cresht','slimz','dieu-thuyen2','thane-2','preyta','fennik-2','raz','preyta-2','payna-2','illumia','nortos-2','yorn-2','violet-3','valhein-2','taara-2','skud-1','skud','natalya-3','lu-bu','jinna-2','illumia-2','butterfly-4','batman','zuka-2','airi-2','zanis','nurad','nurad-2','nina-2','lauriel-2','ignis-2','ignis','grakk','airi-3','zill-2','zill','zanis-2','yorn-3','veera-3','veera-2','telannas','superman','naloch-2','krixi-3','butterfly-5','violet-5','veera-4','telannas-2','illumia-3','batman-2','arduin-2','arduin','wukong-2','nakroth-3','arthur','ryoma-2','ryoma','raz-2','nganga-2','astrid-2','astrid','zanis-4','xeniel','wukong-3','noren','lauriel-3','joker','xeniel-2','telannas-3','nurad-3','lubu-4','lubu-3','kriknak-2','kahlii-2','diaochanlubu','chaugnar-2','azzenka-2','alice-2','aleister-2','noren-2','lubu-5','lauriel-4','kilgoth','gildur-2','fennik-3','zephys-3','wonderwoman','superman-2','slimz-3','natalya-4','krixi-5','krixi-4','zephys-2','zanis-5','yorn-4','xeniel-3','wonderwoman-2','violet-4','naloch-3','airi-4','telannas-4','ormarr-4','ormarr-3','nakroth-4','kilgroth-2','kahlii-3','grakk-3','natalya-5','fennik-4','valhein-3','teemee-2','teemee','lindis','zuka-3','tulen','toro-2','nina-3','naloch-4','lumburr-2','lindis-2','joker-2','grakk-4','gildur-3','aleister-3','tulen-2','toro-3','taara-3','omen-2','omen','zill-3','arthurtelannas','zuka-4','nakroth-5','nax','liliana','raz-3','liliana-2','nax-2','krixnak-3','joker-3','chaugnar-3','wisp','ryoma-3','batman-3','airi-6','tulen-3','cresht-3','cresht-2','astris-3','flash','arum-2','arum','butterfly-6','alice-3','xeniel-4','valhein-4','tulen-4','rourke-2','rourke','nurad-4','nax-3','wisp-2','narja-2','narja','zuka-5','jinna-3','butterfly-7','arthur-5','valhein-5','superman-3','liliana-3','kilgroth','wirosabaleng','roxie-2','roxie','wukong-4','baldum-2','baldum','zephys-4','annette-2','annette','telannas-6','raz-4','nurad-6','nurad-5','jinna-4','amily','ybneth-2','ybneth','ilumia-4','amily-2','xeniel-5','veera-5','liliana-4','flash-2','arthur-2','omen-3','lindis-3','elsu-2','elsu','richter-2','richter','nina-4','thane-3','ryoma-4','quillen-2','quillen','lauriel-5','arum-3','wisp-3','violet-7','sephera-2','sephera','naloch-5','krixi-6','alice-4','tulen-5','skud-3','rourke-3','nakroth-6','florentino-2','florentino','elsu-3','butterfly-8','amily-3','zuka-7','zuka-6','yorn-7','yorn-6','veres-2','veres','naloch-6','cresht-4','azzenka-3','airi-7','zephys-5','yorn-5','violet-8','valhein-6','thane-4','roxie-3','nakroth-7','kahlii-4','elsu-4','darcy-2','darcy','capheny','zill-4','hayate-2','hayate','cresht-5','annette-3','amily-4','tulen-7','telannas-7','omen-4','lindis-4','liliana-5','ignis-3','errol','capheny-2','arum-4','zanis-6','wukong-5','thane-5','slimz-4','skud-4','richter-3','quillen-3','azzenka-4','arduin-3','airi-8']
@@ -2539,8 +2539,8 @@ alpha.sendMessage(from, {image:{ url: textpro2}, caption: lang.ok()}, {quoted:m}
 
 	break
 	case 'avatarff':{
-if (!text) return reply(`Ex: ${prefix + command} nama|character\nUsage: ${prefix + command} zeeone|laura`)
-if (!text.includes('|')) return reply(`Ex: ${prefix + command} nama|character\nUsage: ${prefix + command} zeeone|laura`)
+if (!text) return reply(`Ex: ${prefix + command} nama|character\nUsage: ${prefix + command} Kate|laura`)
+if (!text.includes('|')) return reply(`Ex: ${prefix + command} nama|character\nUsage: ${prefix + command} Kate|laura`)
 var mon = args.join(' ')
 var m1 = mon.split("|")[0]
 var m2 = mon.split("|")[1]
