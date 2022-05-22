@@ -20,9 +20,9 @@ global.autoread = false // auto read pesan / message
 // Other
 global.botname = "KateBot-Mdོ" //namabot kalian
 global.ownername= "Kate Ar Rawawie" //nama kalian
-global.myweb ="https://api.zeeoneofc.xyz" //bebas asal jan hapus
+global.myweb ="https://instagram.com/katenotpedo___" //bebas asal jan hapus
 global.youtube = "https://youtube.com/c/KATEARRAWAWIE" //bebas asal jan hapus
-global.github = "https://zeeone-ofc.github.io/" //bebas
+global.github = "https://github.com/KateArRawawie" //bebas
 global.email = "katteciracas1928@gmail.com" //bebas
 global.region = "Indonesia" //bebas
 global.ownernomer = "6287713488472" // nomor wa kalian
